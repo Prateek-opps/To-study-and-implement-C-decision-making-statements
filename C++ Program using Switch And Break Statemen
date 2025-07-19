@@ -1,0 +1,45 @@
+EXPERIMENT - 5
+Prateek Sinha
+24070123077
+ENTC A3
+
+#include <iostream>
+using namespace std;
+int main(){
+    int choice;
+    cout<<"Monday"<<endl<<"Tuesday"<<endl<<"Wednesday"<<endl<<"Thursday"<<endl<<"Friday"<<endl;
+    cout<<"Enter choice:";
+    cin>>choice;
+    switch(choice){
+        case 1:
+        cout<<"Running";
+        break;
+        case 2:
+        cout<<"Walk";
+        break;
+        case 3:
+        cout<<"Gaming";
+        break;
+        case 4:
+        cout<<"Coding";
+        break;
+        case 5:
+        cout<<"gym";
+        break;
+        cout<<"Swiming";
+        break;
+        default:
+        cout<<"Enter wrong Choice";
+        break;
+    }
+    return 0;
+}
+/*Output:-
+  Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Enter choice:5
+gym
+*/
