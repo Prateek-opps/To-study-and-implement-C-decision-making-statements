@@ -1,0 +1,19 @@
+EXPERIMENT - 5
+Prateek Sinha
+24070123077
+ENTC A3
+
+#include <iostream>
+using namespace std;
+int main(){int number;
+    cout<<"Enter a number:";
+    cin>>number;
+    if(number%2==0){
+        cout<<number<<"is Even"<<endl;
+    }else{
+        cout<<number<<"is Odd"<<endl;}
+    return 0;}
+/*Output:-
+Enter a number: 56
+56 is Even
+*/
